@@ -26,7 +26,7 @@ void main() {
 
     expect(find.text('BTC'), findsOneWidget);
     expect(find.text('67234.56'), findsOneWidget);
-    expect(find.text('+12.34'), findsOneWidget);
+    expect(find.text('↑ 12.34'), findsOneWidget);
   });
 
   testWidgets('shows a loading indicator while waiting for ticks', (
